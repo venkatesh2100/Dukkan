@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const InputBox = ({ placeHolder }) => {
+const InputBox = ({ placeHolder }) => {
   return (
     <form className="max-w-md mx-auto">
       <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-500 sr-only">Search</label>

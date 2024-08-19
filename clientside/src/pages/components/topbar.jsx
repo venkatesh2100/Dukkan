@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import { InputBox } from './inputBox'
+import InputBox  from './inputBox'
 
 
 export default function TopBar() {

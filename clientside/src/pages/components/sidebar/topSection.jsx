@@ -1,7 +1,8 @@
 
-import React from 'react'
-export const TopSection = () => {
-    return <>
+import React from 'react';
+
+const TopSection = () => {
+    return (
         <div className="flex justify-between p-3 items-center">
             <div className="flex m-2">
                 <div className="w-10 bg-gray-300 rounded">
@@ -22,6 +23,7 @@ export const TopSection = () => {
                 </svg>
             </div>
         </div>
-    </>
+    );
 }
+
 export default TopSection;

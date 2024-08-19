@@ -1,9 +1,9 @@
 import React from 'react'
-import { Table } from './Table'
-import { InputBox } from './inputBox'
+import Table from './Table'
+import  InputBox  from './inputBox'
 
 
-export const DataSection = () => {
+const DataSection = () => {
 
 
   return (
@@ -32,4 +32,4 @@ export const DataSection = () => {
   )
 }
 
-export default DataSection
+export default DataSection;

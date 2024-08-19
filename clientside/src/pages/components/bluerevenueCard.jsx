@@ -1,6 +1,6 @@
 import React from "react";
 
-export const BlueRevenueCard = ({ title, amount, orderCount, Day, Time }) => {
+const BlueRevenueCard = ({ title, amount, orderCount, Day, Time }) => {
   return (
     <div className="bg-sky-700  h-fit hover:bg-sky-900 text-white rounded-lg shadow-md  flex-grow min-w-80 w-full ">
       <div className="flex p-5 flex-col gap-4">

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const RevenueCard = ({ title, amount, orderCount }) => {
+const RevenueCard = ({ title, amount, orderCount }) => {
   return (
     <div className="flex-grow gap-4  px-4 py-5 shadow-md rounded p-4 min-w-80 h-fit" >
       <div className="flex">
@@ -53,4 +53,5 @@ export const RevenueCard = ({ title, amount, orderCount }) => {
     </div>
   );
 };
+
 export default RevenueCard;

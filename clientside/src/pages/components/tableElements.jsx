@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const TableElements = (props) => {
+const TableElements = (props) => {
 
 
   return (

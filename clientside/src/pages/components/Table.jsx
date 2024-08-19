@@ -1,9 +1,7 @@
 import React from 'react'
-import { TableElements } from './tableElements'
-import { VALUES } from './element'
-
-
-export const Table = () => {
+import  TableElements from './tableElements'
+import   VALUES from "./element";
+const Table = () => {
 
   const elements = VALUES;
   return (

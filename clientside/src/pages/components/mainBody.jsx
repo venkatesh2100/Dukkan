@@ -1,6 +1,6 @@
 import React from 'react'
 import Cardsection from './cardsection'
-import { DataSection } from './dataSection'
+import  DataSection  from './dataSection'
 
 export default function MainComponent() {
 

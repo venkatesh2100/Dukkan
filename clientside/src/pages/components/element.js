@@ -1,4 +1,4 @@
-export const VALUES = [
+const VALUES = [
   {
       orderId: '#281209',
       status: 'Successful',
@@ -70,5 +70,4 @@ export const VALUES = [
       orderAmount: '1500.00'
   }
 ]
-
-export default Element;
+export default VALUES;
