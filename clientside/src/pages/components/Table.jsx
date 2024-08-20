@@ -1,6 +1,6 @@
 import React from 'react'
 import  TableElements from './tableElements'
-import   VALUES from "./element";
+import   {VALUES }from "../../element";
 const Table = () => {
 
   const elements = VALUES;

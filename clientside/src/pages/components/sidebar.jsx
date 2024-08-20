@@ -1,6 +1,6 @@
 import React from 'react';
 import  BarSection  from './barSection';
-import DATA  from './data';
+import {DATA } from '../../data';
 import  BottomSection  from './bottomSection';
 
 export default function SideBar() {
